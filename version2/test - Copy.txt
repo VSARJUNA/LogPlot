@@ -1,0 +1,11 @@
+     526.384918775:   LTE HLC   0.0	LOG_LA_MESSAGE_START(Interface: PLA, Message: False, Info_1: 0, Info_2: 0, Info_3: 0)
+     526.384918776:   LTE HLC   0.0	LOG_LA_MESSAGE_ST(Interface: PLA, Message: 0x514004, Info_1: 1, Info_2: 1, Info_3: 1)
+     526.384918777:   LTE HLC   0.0	LOG_LA_MESSAGE_ST(Interface: PLA, Message: 0x514004, Info_1: 2, Info_2: 0, Info_3: 0)
+     526.384918778:   LTE HLC   0.0	LOG_LA_MESSAGE_ST(Interface: PLA, Message: 0x514004, Info_1: 3, Info_2: 1, Info_3: 1)
+     526.484917181:   LTE HLC   0.0	LOG_LA_MESSAGE_END()
+     526.384918779:   LTE HLC   0.0	LOG_LA_MESSAGE_START(Interface: PLT, Message: True, Info_1: 0, Info_2: 0, Info_3: 0)
+     526.384918780:   LTE HLC   0.0	LOG_LA_MESSAGE_ST(Interface: PLT, Message: 0x514004, Info_1: 4, Info_2: 1, Info_3: 1)
+     526.384918781:   LTE HLC   0.0	LOG_LA_MESSAGE_ST(Interface: PLT, Message: 0x514004, Info_1: 5, Info_2: 0, Info_3: 0)
+     526.384918782:   LTE HLC   0.0	LOG_LA_MESSAGE_ST(Interface: PLT, Message: 0x514004, Info_1: 6, Info_2: 1, Info_3: 1)
+     526.484917183:   LTE HLC   0.0	LOG_LA_MESSAGE_END()
+

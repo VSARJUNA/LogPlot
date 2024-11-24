@@ -1,0 +1,6 @@
+        self.label.setText(QCoreApplication.translate("Widget", "🝖", None))
+        self.LoadButton.setText(QCoreApplication.translate("Widget", "Load  📁", None))
+        self.PlotButton.setText(QCoreApplication.translate("Widget", "Plot  📊", None))
+        self.SaveButton.setText(QCoreApplication.translate("Widget", "Save  💾", None))
+        self.FilterButton.setText(QCoreApplication.translate("Widget", "Apply Filters 🔍", None))
+        self.ClearFilter.setText(QCoreApplication.translate("Widget", "Clear ❌", None))

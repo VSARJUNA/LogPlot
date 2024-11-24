@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1537</width>
+    <height>754</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QTabWidget" name="DataRangeTab">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>100</y>
+     <width>1521</width>
+     <height>651</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>1</number>
+   </property>
+   <widget class="QWidget" name="tab">
+    <attribute name="title">
+     <string>Data</string>
+    </attribute>
+    <widget class="QTextBrowser" name="TextArea">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>1491</width>
+       <height>591</height>
+      </rect>
+     </property>
+     <property name="placeholderText">
+      <string>Uh No Data Loaded!!! :(</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_4">
+    <attribute name="title">
+     <string>Data Range</string>
+    </attribute>
+    <widget class="QGraphicsView" name="DatarangegraphicsView">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>10</y>
+       <width>1151</width>
+       <height>551</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="RangeDataTextView">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>321</width>
+       <height>571</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QSlider" name="hslider2">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>590</y>
+       <width>1151</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Orientation::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QSlider" name="hslider1">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>570</y>
+       <width>1151</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="maximum">
+      <number>100</number>
+     </property>
+     <property name="sliderPosition">
+      <number>0</number>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Orientation::Horizontal</enum>
+     </property>
+     <property name="invertedAppearance">
+      <bool>true</bool>
+     </property>
+     <property name="invertedControls">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string>Graphs</string>
+    </attribute>
+    <widget class="QListView" name="GraphsListView">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>1491</width>
+       <height>601</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_3">
+    <attribute name="title">
+     <string>Tables</string>
+    </attribute>
+    <widget class="QTableWidget" name="tableWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>991</width>
+       <height>601</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ExportButton">
+     <property name="geometry">
+      <rect>
+       <x>1120</x>
+       <y>60</y>
+       <width>91</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Export</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ScriptButton">
+     <property name="geometry">
+      <rect>
+       <x>1010</x>
+       <y>60</y>
+       <width>101</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Script</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="AddColButton">
+     <property name="geometry">
+      <rect>
+       <x>1010</x>
+       <y>10</y>
+       <width>101</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Add Column</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="EditColButton">
+     <property name="geometry">
+      <rect>
+       <x>1120</x>
+       <y>10</y>
+       <width>91</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>EditColumn</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QLineEdit" name="FiltersSearchBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>421</width>
+     <height>28</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>59</y>
+     <width>63</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>🝖</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="FilterInput">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>60</y>
+     <width>1001</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>421</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QPushButton" name="LoadButton">
+      <property name="text">
+       <string>Load  📁</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="PlotButton">
+      <property name="text">
+       <string>Plot  📊</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="SaveButton">
+      <property name="text">
+       <string>Save  💾</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="ThemeButton">
+      <property name="text">
+       <string>Change theme</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>10</y>
+     <width>231</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="FilterButton">
+      <property name="text">
+       <string>Apply Filters 🔍</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="ClearFilter">
+      <property name="text">
+       <string>Clear ❌</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>10</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../Downloads/load_image.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="progressBar">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>20</y>
+     <width>241</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="value">
+    <number>0</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="progressBarLable">
+   <property name="geometry">
+    <rect>
+     <x>1030</x>
+     <y>20</y>
+     <width>211</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
