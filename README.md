@@ -22,7 +22,7 @@ A step by step series of examples that tell you how to get a development env run
 Step 1: Clone the repo
 
 ```bash
-git clone https://github.com/VMsubhash/LogPlot.git
+git clone https://github.com/VSARJUNA/LogPlot.git
 cd [version_num]
 ```
 
